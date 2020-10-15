@@ -1,0 +1,28 @@
+@media all and (max-width: 1250px) 
+{
+    .FooterInicial
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .FooterLogo
+    {
+        width: 20%;
+    }
+
+    .FooterLogo img
+    {
+        width: 80%;
+    }
+
+    .FooterRedes
+    {
+        width: 60%;
+    }
+
+    .FooterSection
+    {
+        width: 10%;
+    }
+}

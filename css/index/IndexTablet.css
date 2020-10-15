@@ -1,0 +1,26 @@
+@media all and (max-width: 950px) 
+{
+    .Dato
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Img
+    {
+        width: 80%;
+        max-width: 80%;
+        min-width: 80%;
+    }
+
+    .Imagen img 
+    {
+        width: 100%;
+    }
+
+    .Texto
+    {
+        width: 95%;
+    }
+} 

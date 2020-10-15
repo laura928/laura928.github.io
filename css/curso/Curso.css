@@ -1,0 +1,93 @@
+.Body
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Parrafo
+{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.fixed-top {
+    box-shadow: 0 0px 15px rgba(0,0,0,0.2);
+}
+
+.Numeral
+{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.Imagenes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Img 
+{
+    width: 32%;
+    max-width: 32%;
+    min-width: 32%;
+    height: 500px;
+}
+
+.Img img 
+{
+    width: 100%;
+}
+
+.ContenidoConcepto
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Titulo 
+{
+    width: 35%;
+    max-width: 35%;
+    min-width: 35%;
+}
+
+.carousel .carousel-item 
+{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.carousel .carousel-item img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.carousel .carousel-item a
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 13px; 
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}

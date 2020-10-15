@@ -1,0 +1,17 @@
+@media all and (max-width: 950px) 
+{
+    .Imagenes
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Img
+    {
+        width: 100%;
+        max-width: 80%;
+        min-width: 80%;
+    }
+} 

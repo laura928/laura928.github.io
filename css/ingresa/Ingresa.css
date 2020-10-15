@@ -1,0 +1,78 @@
+.Body
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Parrafo
+{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.fixed-top {
+    box-shadow: 0 0px 15px rgba(0,0,0,0.2);
+}
+.Imagenes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Img 
+{
+    width: 32%;
+    max-width: 32%;
+    min-width: 32%;
+}
+
+.Img img 
+{
+    width: 100%;
+}
+
+.Formulario
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Formulario form
+{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.Sub
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Input
+{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 5px 5px;
+    font-size: 18px;
+}
+
+.Boton
+{
+    width: 250px;
+    text-align: center;
+    border: 2px solid #E5BE01;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 7px 10px;
+    color: #000;
+}

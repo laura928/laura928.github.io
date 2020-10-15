@@ -1,0 +1,27 @@
+@media all and (max-width: 950px) 
+{
+    .Imagenes
+    {
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ContenidoConcepto
+    {
+        flex-direction: column;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .img
+    {
+        width: 100%;
+        max-width: 80%;
+        min-width: 80%;
+    }
+} 

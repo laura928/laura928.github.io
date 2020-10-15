@@ -1,0 +1,325 @@
+header
+{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 2;
+    background-image: url(../../img/cabecera2.png);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+
+.header-content
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img
+{
+    width: 80%;
+}
+
+.menu 
+{
+    height: 80px;
+}
+
+.menu nav
+{
+    height: 100%;
+}
+
+.menu nav ul
+{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li
+{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-selected:before
+{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #46a2fd;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu nav ul li a
+{
+    font-size: 18px;
+    transition: color 300ms;
+}
+
+.menu nav ul li a:hover
+{
+    color: #46a2fd;
+}
+
+.menu nav ul li a i
+{
+    display: none;
+}
+
+#iconM
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    padding: 10px;
+    font-size: 20px;
+    background: #eeeeeefa;
+    border-radius: 100%;
+    color: #787878;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#iconM:hover{
+    opacity: 0.8;
+}
+
+/* Estilos generales */
+
+.Blue
+{
+    text-decoration: none;
+    color: turquoise;
+    font-size: 18px;
+    margin: 0px 4px;
+    padding: 2px 1px;
+}
+
+.MenuText
+{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    margin: 0px 4px;
+    padding: 2px 1px;
+}
+
+.Logo img
+{
+    width: 100px;
+}
+
+.Body
+{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    justify-content: center;
+}
+
+.Centrado
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Subtitulo
+{
+    font-size: 45px;
+}
+
+.Footer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .Centrado
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Linea hr 
+{
+    border: dimgray 1px solid;
+    color: dimgray;
+    
+}
+
+.InRedes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Redes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Redes .Icon i 
+{
+    font-size: 50px;
+    color: gray;
+}
+
+.IconText p 
+{
+    margin: 0;
+    margin-left: 6px;
+    color: gray;
+}
+
+.FooterInferior
+{
+    box-shadow: 0 0px 15px rgba(0,0,0,0.2);
+    color: #48292e;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.FooterInferior p
+{
+    margin: 0;
+}
+
+.Active
+{
+    color: yellow;
+    border: 1px transparent solid;
+    border-bottom-color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1240px)
+{
+    .header-content
+    {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1240px)
+{
+
+    body
+    {
+        overflow-x: hidden;
+    }
+
+    .menu
+    {
+        width: 0px;
+        height: 100vh;
+        position: fixed;
+        top: 120px;
+        left: 0;
+        background: #fff;
+        overflow: hidden;
+        transform: translateX(-350px);
+        box-shadow: 10px 0 20px -25px black;
+        transition: all 300ms cubic-bezier(1,0,0,1);
+    }
+
+    /* No borrar */
+
+    .show-lateral
+    {
+        width: 300px;
+        transform: translateX(0px);
+    }
+
+    .menu nav ul {
+        flex-direction: column;
+    }
+
+    .menu nav ul li
+    {
+        max-width: 200px;
+        height: 50px;
+        justify-content: flex-start;
+    }
+
+    .menu-selected:before
+    {
+        width: 0;
+    }
+
+    .menu nav ul li a
+    {
+        margin-top: 40px;
+        color: #858585;
+    }
+
+    .menu nav ul li a i
+    {
+        width: 20px;
+        display: inline-block;
+        margin-right: 10px;
+        color: #46a2fd;
+    }
+
+    #iconM
+    {
+        display: flex;
+    }
+
+}

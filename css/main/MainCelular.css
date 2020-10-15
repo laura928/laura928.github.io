@@ -1,0 +1,76 @@
+@media all and (max-width: 699px) and (min-width: 10px)
+{
+    .Menu
+    {
+        width: 100%;
+    }
+
+    .Menu nav ul
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Menu nav ul li 
+    {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Menu nav ul li a
+    {
+        color: #FFF;
+        margin-right: 0;
+    }
+
+    .Menu nav ul li a:hover
+    {
+        color: #EC203F;
+    }
+
+    .Menu
+    {
+        height: 80%;
+        margin-bottom: 30px;
+    }
+
+    #Deploy
+    {
+        display: flex;
+    }
+
+    .FooterInicial
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .FooterLogo
+    {
+        display: none;
+    }
+
+    .FooterRedes
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .RedesText
+    {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .FooterSection
+    {
+        display: none;
+    }
+
+    .Centrado
+    {
+        width: 95%;
+    }
+}
