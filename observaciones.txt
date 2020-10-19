@@ -1,0 +1,6 @@
+-En el home falta el pie de página
+-En la vista nosotros el menú desaparece
+-El enlace cursos no funciona
+-En lo posible exportar las vistas en jpg por separado
+-Corregir el formulario de registro y arreglar el menú de navegación
+-Mejorar la vista de contactenos
