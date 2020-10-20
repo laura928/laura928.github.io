@@ -4,3 +4,11 @@
 -En lo posible exportar las vistas en jpg por separado
 -Corregir el formulario de registro y arreglar el menú de navegación
 -Mejorar la vista de contactenos
+
+Tareas urgentes:
+--Deben organizar todo el html, quitando el css de este
+--Deben organizar el orden de carga de los archivos js y css
+--Borran todo el css y js de boostrap (jquery) y lo llaman mediante cdn
+--Organizan todo el css y js en un solo archivo (todo)
+--Nombres y archivos deben tener letras en minúsculas, sin tildes y sin espacios
+--Sin borrar el repo
