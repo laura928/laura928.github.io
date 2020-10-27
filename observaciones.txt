@@ -1,14 +1,13 @@
--En el home falta el pie de página
--En la vista nosotros el menú desaparece
--El enlace cursos no funciona
--En lo posible exportar las vistas en jpg por separado
--Corregir el formulario de registro y arreglar el menú de navegación
--Mejorar la vista de contactenos
+-En el home falta el pie de página (ok)
+-En la vista nosotros el menú desaparece (ok)
+-El enlace cursos no funciona (ok)
+-En lo posible exportar las vistas en jpg por separado (ok)
+-Corregir el formulario de registro y arreglar el menú de navegación (ok)
+-Mejorar la vista de contactenos (ok)
 
 Tareas urgentes:
---Deben organizar todo el html, quitando el css de este
---Deben organizar el orden de carga de los archivos js y css
---Borran todo el css y js de boostrap (jquery) y lo llaman mediante cdn
---Organizan todo el css y js en un solo archivo (todo)
---Nombres y archivos deben tener letras en minúsculas, sin tildes y sin espacios
---Sin borrar el repo
+--Deben organizar todo el html, quitando el css de este (en proceso)
+--Deben organizar el orden de carga de los archivos js y css (en proceso)
+--Borran todo el css y js de boostrap (jquery) y lo llaman mediante cdn (en proceso)
+--Nombres y archivos deben tener letras en minúsculas, sin tildes y sin espacios (ok)
+--Sin borrar el repo (ok)
